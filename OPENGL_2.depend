@@ -1,0 +1,81 @@
+# depslib dependency file v1.0
+1492384173 source:/home/jose/Documentos/c++/cpp17/opengl_2/display.cpp
+	"display.h"
+	<iostream>
+	<GL/glew.h>
+
+1492384173 /home/jose/Documentos/c++/cpp17/opengl_2/display.h
+	<string>
+	<SDL2/SDL.h>
+
+1492492423 source:/home/jose/Documentos/c++/cpp17/opengl_2/main.cpp
+	"display.h"
+	"shader.h"
+	"mesh.h"
+	"texture.h"
+	"camara.h"
+	"transform.h"
+	<GL/glew.h>
+
+1492490685 /home/jose/Documentos/c++/cpp17/opengl_2/shader.h
+	"transform.h"
+	"camara.h"
+	<string>
+	<GL/glew.h>
+
+1492404731 /home/jose/Documentos/c++/cpp17/opengl_2/mesh.h
+	<glm/glm.hpp>
+	<GL/glew.h>
+
+1492384173 /home/jose/Documentos/c++/cpp17/opengl_2/texture.h
+	<string>
+	<GL/glew.h>
+
+1492405686 source:/home/jose/Documentos/c++/cpp17/opengl_2/mesh.cpp
+	"mesh.h"
+	<vector>
+
+1492490671 source:/home/jose/Documentos/c++/cpp17/opengl_2/shader.cpp
+	"shader.h"
+	<fstream>
+	<iostream>
+
+1492384173 source:/home/jose/Documentos/c++/cpp17/opengl_2/stb_image.c
+	"stb_image.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+
+1492384173 /home/jose/Documentos/c++/cpp17/opengl_2/stb_image.h
+	<stdio.h>
+
+1492400456 source:/home/jose/Documentos/c++/cpp17/opengl_2/texture.cpp
+	"texture.h"
+	"stb_image.h"
+	<cassert>
+	<iostream>
+
+1492399448 source:/home/jose/Documentos/c++/cpp17/opengl_2/textu.cpp
+	"textu.h"
+	"stb_image.h"
+	<iostream>
+
+1492399401 /home/jose/Documentos/c++/cpp17/opengl_2/textu.h
+	<string>
+	<GL/glew.h>
+
+1492473819 source:/home/jose/Documentos/c++/cpp17/opengl_2/transform.cpp
+	"transform.h"
+
+1492485921 /home/jose/Documentos/c++/cpp17/opengl_2/transform.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+
+1492491252 /home/jose/Documentos/c++/cpp17/opengl_2/camara.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+
